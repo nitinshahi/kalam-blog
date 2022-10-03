@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 7.2rem;
+  left: 0rem;
+  right: 0rem;
+  background-color: #082796;
+}
+.navbar-logo-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0.8rem;
+  position: absolute;
+  width: 12.2rem;
+  height: 4.6rem;
+  left: 10rem;
+  top: 1.3rem;
+}
+
+.navbar-logo-section .logo-area {
+  width: 4rem;
+  height: 4rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navbar-logo-section .logo-area .logo-box {
+  position: absolute;
+  width: 5.135rem;
+  height: 4.105rem;
+  left: -0.83rem;
+  top: 0.089rem;
+}
+.navbar-logo-section .logo-area img {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 0px;
+  top: 0.3rem;
+  background: url(.png);
+}
+
+.navbar-logo-section .logo-text {
+  width: 7.4rem;
+  height: 4.6rem;
+  font-family: "Satisfy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.6rem;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.navbar .nav-items-section {
+  /* position: absolute; */
+  margin: auto;
+  width: 46.6rem;
+  height: 2.7rem;
+  margin-top: 2.3rem;
+  /* top: 2.3rem; */
+}
+.navbar .nav-items-section ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  text-align: center;
+}
+.navbar .nav-items-section li {
+  width: 8.5rem;
+  height: 1.9rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+.navbar .nav-items-section li a {
+  color: #ffffff;
+}
+
+.navbar .nav-items-section li a:hover {
+  border-bottom: solid 0.15rem #ffffff;
+}
+
+.navbar .nav-search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.8rem 1.3rem;
+  gap: 0.4rem;
+
+  position: absolute;
+  width: 24.8rem;
+  height: 4rem;
+  right: 10rem;
+  top: 1.6rem;
+
+  background: #0c216d;
+  border-radius: 2rem;
+}
+
+.nav-search-logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0rem;
+  gap: 0.6rem;
+
+  width: 9.6rem;
+  height: 2.4rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.nav-search-logo-box .fa-magnifying-glass {
+  color: #ffffff;
+  font-size: 1.7rem;
+}
+.nav-search-logo-box input {
+  /* position: absolute; */
+  /* width: 100%; */
+  color: #ffffff;
+  background-color: #0c216d;
+  border: none;
+
+  width: 6.6rem;
+  height: 1.9rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.nav-search-logo-box input:focus {
+  outline: none;
+  border-bottom: solid 1px;
+}
+
+.slider-section {
+  position: absolute;
+  width: 68rem;
+  height: 40.6rem;
+  left: 20rem;
+  top: 11.7rem;
+}
+
+.slider-section p {
+  position: absolute;
+  width: 41.9rem;
+  height: 2.9rem;
+  left: 13.9rem;
+  top: 31.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+}
+
+.slider-section img {
+  position: absolute;
+  width: 68rem;
+  height: 40.6rem;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(360deg, #000000 -1.85%, rgba(0, 0, 0, 0) 53.57%),
+    url(.jpg);
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 33%;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 22%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 18%;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 16%;
+  }
+}
+@media (max-width: 340px) {
+  html {
+    font-size: 13%;
+  }
+}
