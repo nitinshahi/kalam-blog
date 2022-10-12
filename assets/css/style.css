@@ -74,6 +74,10 @@ html {
   border-bottom: solid 0.15rem #ffffff;
 }
 
+.pages-section ul li a:focus {
+  border-bottom: solid 0.15rem #ffffff;
+}
+
 .search-section {
   width: 24.8rem;
   height: 4rem;
@@ -108,4 +112,295 @@ html {
 .search-section input:focus {
   outline: none;
   border-bottom: solid 1px;
+}
+
+/* -----------------nav bar section End*/
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  /* border: solid 1px; */
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col1 {
+  width: 65%;
+  margin-right: 4rem;
+}
+
+.slider-section {
+  width: 100%;
+  height: 57.327rem;
+}
+
+.slider-section img {
+  width: 100%;
+  height: 57.327rem;
+}
+.slider-section h2 {
+  /* position: relative;
+  bottom: 10.4rem; */
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 2.9rem;
+  text-align: center;
+}
+.slider-section a {
+  position: relative;
+  bottom: 10.4rem;
+  text-decoration: none;
+}
+
+.dots {
+  position: relative;
+  bottom: 8rem;
+}
+
+.dot {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 0.2rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.col2 {
+  width: 35%;
+}
+
+.image-section {
+  width: 100%;
+}
+
+.image-card {
+  height: 27.5rem;
+  margin-bottom: 2rem;
+}
+
+.image-card img {
+  width: 100%;
+  height: 27.5rem;
+}
+.image-card a {
+  position: relative;
+  bottom: 8rem;
+  text-decoration: none;
+}
+.image-card h2 {
+  padding-left: 1.2rem;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+}
+
+.row2 {
+  margin-top: 6.4rem;
+}
+
+.recommend-section {
+  width: 100%;
+}
+
+.recommend-section h1 {
+  font-size: 2rem;
+  width: 20.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+}
+
+.categories-section {
+  font-size: 2.4rem;
+}
+
+/* -----------------Footer section */
+.footer-section {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 31.4rem;
+  margin-left: 0rem;
+  /* margin-top: 6.4rem; */
+  background-color: #082796;
+  justify-content: space-between;
+}
+.footer-row {
+  margin-top: 4.8rem;
+}
+.footer-section h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-logo img {
+  width: 2.8rem;
+}
+.footer-logo h1 {
+  font-family: "Satisfy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+  margin-left: 0.6rem;
+}
+
+.footer-section h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #ffffff;
+  margin-top: 1.2rem;
+  text-decoration: none;
+}
+
+.footer-socials i {
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-right: 1.78rem;
+  font-size: 1.6rem;
+}
+
+.footer-copyright {
+  border-top: 1px solid #dddddd;
+  opacity: 0.33;
+  justify-content: center;
+}
+.footer-copyright h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 2.2rem;
+}
+/* ..................... */
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  /* .wrapper {
+    border: solid 3px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .col1 {
+    margin-top: 4.5rem;
+    margin-right: 4.5rem;
+    width: 68rem;
+  }
+
+  .slider-section {
+    text-align: center;
+  }
+
+  .slider-section img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .slider-section h2 {
+    position: relative;
+    bottom: 8.4rem;
+    color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+  }
+
+  .col2 {
+    margin-top: 4.5rem;
+    width: 32rem;
+  }
+
+  .image-section {
+    height: 40.6rem;
+  }
+
+  .image-card {
+    height: 19.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: 19.3rem;
+  }
+
+  .image-card h2 {
+    position: relative;
+    bottom: 6rem;
+    color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.9rem;
+    text-align: center;
+  } */
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 33%;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 22%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 18%;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 16%;
+  }
+}
+@media (max-width: 340px) {
+  html {
+    font-size: 13%;
+  }
 }
